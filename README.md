@@ -1,6 +1,6 @@
 # FuckOopz
 
-面向 **Oopz**（`com.weilaishanhai.oopz`）的 LSPosed 模块：**移除开屏广告**，并修复了oopz的一些神人问题
+面向 **Oopz**（`com.weilaishanhai.oopz`）的 LSPosed 模块：**移除开屏广告**，并修复了Oopz的一些神人问题（支持NPatch本地模式）
 
 - 模块包名：`io.github.fuckoopz`（入口类 `io.github.fuckoopz.HookEntry`）
 - 框架：libxposed API 102（LSPosed 2.x / 现代 NPatch）
@@ -33,12 +33,12 @@ Dart 启动页 --等 setupSuccess--> 插件 --CJMobileAd.init--> 广告 SDK
 
 ## 安装
 
-1. 从 Releases 下载 `FuckOopz-*.apk` 安装（或用 Actions 产物）。
-2. 打开 LSPosed → 模块 → 启用 **FuckOopz**。
-3. 进入模块详情，勾选作用域 **Oopz**（模块声明了静态作用域，列表里只有 Oopz，带「推荐应用」标记）。
-4. 强行停止 Oopz 后重新启动。
+1. 从 Releases 下载 `FuckOopz-*.apk` 安装（或用 Actions 产物）
+2. 打开 LSPosed → 模块 → 启用 **FuckOopz**（若使用NPatch，请将破解签名校验等级提升至Stealth）
+3. 进入模块详情，勾选作用域 **Oopz**
+4. 强行停止 Oopz 后重新启动
 
-启用后不需要任何配置。
+启用后不需要任何配置
 
 ## 验证
 

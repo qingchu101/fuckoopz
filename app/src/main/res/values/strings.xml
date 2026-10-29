@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_description">移除 Oopz 开屏广告，并修复广告 SDK 初始化失败导致的卡启动页 / Skip Oopz splash ads</string>
+</resources>

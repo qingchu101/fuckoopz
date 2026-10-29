@@ -1,0 +1,4 @@
+-keep class io.github.libxposed.** { *; }
+-keep class io.github.fuckoopz.HookEntry { *; }
+-keep class * extends io.github.libxposed.api.XposedModule { *; }
+-dontwarn io.github.libxposed.**
